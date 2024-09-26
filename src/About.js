@@ -8,6 +8,7 @@ const About = () => {
       <div className="relative w-full">
         <div className="carousel-item active mb-2  text-center align-center ">
           <img src="Lift (1).jpg" className="w-full" alt="First slide" />
+          {/* <div className="absolute inset-x-[2%] bottom-5  py-5 text-center text-white md:block"> */}
           <div className="absolute bottom-0 left-0 text-black h-4/6 w-full text-center align-center">
             <p
               className="text-2xl leading-loose text-white  font-bold  "
@@ -17,7 +18,7 @@ const About = () => {
             </p>
 
             <p
-              className="text-3xl p-1 px-20 text-justify  leading-normal  text-white "
+              className="text-3xl p-1 px-20 text-justify  w-full leading-normal  text-white  "
               style={{ fontSize: "20px" }}
             >
               Sychology Elevators introduces the world’s leading home elevators

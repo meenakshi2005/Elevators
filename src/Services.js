@@ -10,7 +10,7 @@ const Services = () => {
       {/* {Array.from({ length: 4 }).map((_, i) => ( */}
         <div className="rounded-md ">
           <img
-            src="approach.png"
+            src="img1.jpeg"
             alt="Laptop"
             className="aspect-[16/9] w-full rounded-md md:aspect-auto md:h-[300px] lg:h-[300px]"
           />

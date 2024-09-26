@@ -26,7 +26,7 @@ function Contactus() {
   return (
     <div className="" style={{backgroundColor:"#f7f6f5",marginTop:"-10px"}} >
       <h2 className="text-startpx-11 p-4 px-24 text-2xl font-bold leading-tight text-black mt-2">
-        Contactus
+        Contact us
       </h2>
       <main className="py-10">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
