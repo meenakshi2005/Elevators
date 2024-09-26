@@ -41,7 +41,7 @@ const Elevators = () => {
         </div>
         <div  className="rounded-md border">
           <img
-            src="open_lift.jpg"
+            src="032618IMG_9937.jpeg"
             alt="Laptop"
             className="aspect-[16/9] w-full rounded-md md:aspect-auto md:h-[300px] lg:h-[300px]"
           />
