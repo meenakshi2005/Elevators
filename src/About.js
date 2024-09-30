@@ -10,10 +10,9 @@ const About = () => {
           <img
             src="Lift (1).jpg"
             className="w-full h-screen object-cover filter brightness-50"
-          
             alt="First slide"
           />
-         
+
           {/* <div className="absolute inset-x-[2%] bottom-5  py-5 text-center text-white md:block"> */}
           <div
             className="
@@ -33,19 +32,12 @@ const About = () => {
               About Sychology Elevators
             </p>
 
-            <p
-              className="text-xl p-1  lg:mt-6 mb-12 px-20 text-justify lg:leading-normal  w-full  text-white  "
-
-            >
-              Sychology Elevators introduces the world’s leading home elevators
-              and stairlifts to the Indian market, focusing on superior mobility
-              solutions. Their products aim to enhance accessibility, especially
-              for the elderly and those with mobility challenges, ensuring
-              comfort and convenience at home. With a commitment to quality and
-              safety, they offer cutting-edge designs that meet international
-              standards. Sychology Elevators is dedicated to improving home
-              transportation systems across India. Their solutions are reliable,
-              efficient, and built to elevate daily living experiences.
+            <p className="text-xl p-1  lg:mt-6 mb-12 px-20 text-justify lg:leading-normal  w-full  text-white  ">
+              The Sychology Elevator project is focused on exploring the
+              intersection of psychology and technology, aiming to elevate
+              mental wellness through innovative solutions. It seeks to create
+              tools or platforms that help individuals better understand and
+              manage their psychological health.
             </p>
             <a href="/contactus">
               <button
@@ -56,7 +48,6 @@ const About = () => {
               </button>
             </a>
           </div>
-        
         </div>
       </div>
       <section
