@@ -4,22 +4,38 @@ import { ArrowUpRight } from "lucide-react";
 const About = () => {
   return (
     // About 1 - Tailwind CSS Brain Component
-    <div className="relative w-full overflow-hidden">
-      <div className="relative w-full">
-        <div className="carousel-item active mb-2  text-center align-center ">
-          <img src="Lift (1).jpg" className="w-full" alt="First slide" />
+    <div className=" w-full">
+      <div className=" w-full">
+        <div className="carousel-item h-screen active mb-2 text-center align-center ">
+          <img
+            src="Lift (1).jpg"
+            className="w-full h-screen object-cover filter brightness-50"
+          
+            alt="First slide"
+          />
+         
           {/* <div className="absolute inset-x-[2%] bottom-5  py-5 text-center text-white md:block"> */}
-          <div className="absolute bottom-0 left-0 text-black h-4/6 w-full text-center align-center">
-            <p
-              className="text-2xl leading-loose text-white  font-bold  "
-              style={{ fontSize: "30px" }}
-            >
+          <div
+            className="
+  absolute 
+  bottom-0 
+  left-0 
+  text-black 
+  w-full 
+  text-center 
+  align-center
+  h-4/5          
+  md:h-3/4    
+  lg:h-4/6
+"
+          >
+            <p className="text-3xl leading-loose text-white font-bold  ">
               About Sychology Elevators
             </p>
 
             <p
-              className="text-3xl p-1 px-20 text-justify  w-full leading-normal  text-white  "
-              style={{ fontSize: "20px" }}
+              className="text-xl p-1  lg:mt-6 mb-12 px-20 text-justify lg:leading-normal  w-full  text-white  "
+
             >
               Sychology Elevators introduces the world’s leading home elevators
               and stairlifts to the Indian market, focusing on superior mobility
@@ -40,13 +56,14 @@ const About = () => {
               </button>
             </a>
           </div>
+        
         </div>
       </div>
       <section
         class="bg-gray-200 "
         style={{ backgroundImage: "linear-gradient(#f7f6f5, #f5f2f0)" }}
       >
-        <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
           <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
             <div class="max-w-lg">
               <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">

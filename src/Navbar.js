@@ -50,12 +50,12 @@ const Navbar = () => {
           <ul className="inline-flex space-x-8">
             {menuItems.map((item) => (
               <li key={item.name} className=' text-lg'>
-                <a
-                  href={item.href}
+                <Link
+                  to={item.href}
                   className="text-medium font-semibold text-text-teal-800 hover:text-gray-900"
                 >
                   {item.name}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

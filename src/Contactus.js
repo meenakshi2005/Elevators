@@ -24,7 +24,10 @@ function Contactus() {
   };
 
   return (
-    <div className="" style={{backgroundColor:"#f7f6f5",marginTop:"-10px"}} >
+    <div
+      className=""
+      style={{ backgroundColor: "#f7f6f5", marginTop: "-10px" }}
+    >
       <h2 className="text-startpx-11 p-4 px-24 text-2xl font-bold leading-tight text-black mt-2">
         Contact us
       </h2>
@@ -35,14 +38,14 @@ function Contactus() {
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-gray-100 p-4">
                 <div className="flex items-center space-x-2">
-                  <i className="fas fa-envelope text-xl"></i>
+                  {/* <i className="fas fa-envelope text-xl"></i> */}
                   <span className="text-lg font-semibold">Email</span>
                 </div>
                 <span>Sychologyelevatorcompany@gmail.com</span>
               </div>
               <div className="bg-gray-100 p-4">
                 <div className="flex items-center space-x-2">
-                  <i className="fas fa-phone text-xl"></i>
+                  {/* <i className="fas fa-phone text-xl"></i> */}
                   <span className="text-lg font-semibold">Phone</span>
                 </div>
                 <span>+9119796610</span>
@@ -50,7 +53,7 @@ function Contactus() {
             </div>
             <div className="bg-gray-100 p-4 mt-4">
               <div className="flex items-center space-x-2">
-                <i className="fas fa-map-marker-alt text-xl"></i>
+                {/* <i className="fas fa-map-marker-alt text-xl"></i> */}
                 <span className="text-lg font-semibold">Office location</span>
               </div>
               <span>#007, Street name, Bigtown BG23 4YZ, England</span>
@@ -69,38 +72,22 @@ function Contactus() {
           </div>
 
           {/* Contact Form Block */}
-          <div>
+          <div className="m-10">
             <h2 className="pb-4 text-2xl">Leave a message</h2>
             <form onSubmit={handleSubmit}>
-              <div className="grid grid-cols-2 gap-4">
-                <div>
-                  <label htmlFor="fname" className="block text-gray-700">
-                    Fname
-                  </label>
-                  <input
-                    type="text"
-                    className="block w-full mt-1 border-gray-300 rounded p-2"
-                    id="fname"
-                    name="fname"
-                    value={formData.fname}
-                    onChange={handleChange}
-                    placeholder="John"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="lname" className="block text-gray-700">
-                    Lname
-                  </label>
-                  <input
-                    type="text"
-                    className="block w-full mt-1 border-gray-300 rounded p-2"
-                    id="lname"
-                    name="lname"
-                    value={formData.lname}
-                    onChange={handleChange}
-                    placeholder="Doe"
-                  />
-                </div>
+            <div className="mt-4">
+                <label htmlFor="name" className="block text-gray-700">
+                  Full Name
+                </label>
+                <input
+                  type="name"
+                  className="block w-full mt-1 border-gray-300 rounded p-2"
+                  id="name"
+                  name="neme"
+                  value={formData.name}
+                  onChange={handleChange}
+                  placeholder="name@example.com"
+                />
               </div>
               <div className="mt-4">
                 <label htmlFor="email" className="block text-gray-700">
@@ -112,7 +99,7 @@ function Contactus() {
                   id="email"
                   name="email"
                   value={formData.email}
-                  onChang9876543210e={handleChange}
+                  onChange={handleChange}
                   placeholder="name@example.com"
                 />
               </div>
@@ -158,11 +145,10 @@ function Contactus() {
                   rows="3"
                 ></textarea>
               </div>
-              {/* <button type="submit" className="mt-4 bg-gray-900 text-white py-2 px-6 rounded">Send Message</button> */}
               <a href="/">
                 <button
                   type="button"
-                  className="rounded-md text-medium font-semibold bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                  className="rounded-md text-medium m-6 font-semibold bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >
                   Send Message
                 </button>
