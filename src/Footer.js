@@ -67,7 +67,8 @@ function Footer() {
               
               <div className="mb-4">
               <h6 className="text-uppercase font-bold mb-4">Contact</h6>
-                <p>New York, NY 10012, US</p>
+                <p> HNO, 848, CHANDRA LOK COLONY, MODINAGAR ROAD, Modinagar Hapur,
+                HAPUR, Hapur, Hapur, Uttar Pradesh, 245101</p>
                 <p>Sychologyelevatorcompany@gmail.com</p>
                 <p>+ 9119796610</p>
               </div>

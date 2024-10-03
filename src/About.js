@@ -61,26 +61,93 @@ const About = () => {
                 About Us
               </h2>
               <p class="mt-4 text-gray-600 text-lg">
-                An Indian home elevator company headquartered in Chennai, Tamil
-                Nadu, Elite Elevators opened its doors for business in 2013.
-                Armed with a dream to introduce high-end, safety-certified and
-                genuine home elevators to Indian residences, we partnered with
-                TK Access Solutions, Germany, a world-leading manufacturer of
-                home elevators to make this dream a reality. TK Access
-                Solutions’ German-engineered and Italian-made home elevators
-                have earned multiple international accolades and recognition for
-                their performance, design and safety aspects. Joining our
-                exclusive range is our first flagship product, developed and
-                manufactured in-house after extensive research.
+                Sychology Elevator is a cutting-edge platform aimed at
+                revolutionizing the way individuals approach mental well-being
+                and personal growth. Our mission is to bridge the gap between
+                mental health awareness and actionable insights by providing a
+                seamless, user-friendly interface for learning, self-reflection,
+                and professional support. Whether you are seeking to elevate
+                your own mental resilience or foster a supportive community,
+                Sychology Elevator provides the tools and resources to guide you
+                on your journey to well-being.
               </p>
-              {/* <p class="mt-4 text-gray-600 text-lg">Our home lifts personify luxury//\ in its purest form, enabling homeowners across India to experience comfort par excellence daily. Our elevator technology is one of the best globally with some models even being the first in the world to carry such coveted technology. In other words, you’ll need to buy an Elite home elevator to access this revolutionary technology. Elite Elevators has 20+ locations within the country, including regional offices and an exclusive chain of experience centres. Beyond Indian shores, we’ve set up operations in the UAE, Malaysia and Australia.</p> */}
-
               <div class="mt-8">
                 <a
                   href="#"
                   class="text-blue-500 hover:text-blue-600 font-medium"
                 >
                   Learn more about us
+                  <span class="ml-2">&#8594;</span>
+                </a>
+              </div>
+            </div>
+            <div class="mt-12 md:mt-0">
+              <img
+                className="w-full h-auto rounded"
+                loading="lazy"
+                src="New.jpg"
+                alt="About 1"
+              />
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8 pt-8">
+            <div class="mt-12 md:mt-0 ">
+              <img
+                className="w-full h-auto rounded"
+                loading="lazy"
+                src="New.jpg"
+                alt="About 1"
+              />
+            </div>
+            <div class="max-w-lg">
+              <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                Vision
+              </h2>
+              <p class="mt-4 text-gray-600 text-lg">
+                To be a global leader in mental health innovation by empowering
+                individuals to elevate their mental wellness through accessible
+                education, self-care practices, and professional guidance. We
+                envision a world where mental health is prioritized,
+                destigmatized, and integrated into every aspect of daily life.
+              </p>
+              <div class="mt-8">
+                <a
+                  href="#"
+                  class="text-blue-500 hover:text-blue-600 font-medium"
+                >
+                  Learn more vision
+                  <span class="ml-2">&#8594;</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8 pt-12">
+            <div class="max-w-lg">
+              <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                Mission
+              </h2>
+              <p class="mt-4 text-gray-600 text-lg">
+                Our mission is to promote mental health awareness and foster a
+                community of growth by providing a platform where users can
+                access tools, resources, and professional support for their
+                mental well-being. Through Sychology Elevator, we aim to:
+              </p>
+              <p class="mt-4 text-gray-600 text-lg">
+              Equip individuals with knowledge and skills for maintaining mental resilience.
+              </p>
+              <p class="mt-4 text-gray-600 text-lg">
+              Create a supportive environment for sharing experiences and learning.
+              </p>
+              <p class="mt-4 text-gray-600 text-lg">
+              Enhance access to mental health professionals and services through innovative technology.
+
+              </p>
+              <div class="mt-8">
+                <a
+                  href="#"
+                  class="text-blue-500 hover:text-blue-600 font-medium"
+                >
+                  Learn more mission
                   <span class="ml-2">&#8594;</span>
                 </a>
               </div>

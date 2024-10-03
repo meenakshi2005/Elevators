@@ -53,21 +53,24 @@ function Contactus() {
             </div>
             <div className="bg-gray-100 p-4 mt-4">
               <div className="flex items-center space-x-2">
-                {/* <i className="fas fa-map-marker-alt text-xl"></i> */}
+                <i className="fas fa-map-marker-alt text-xl"></i>
                 <span className="text-lg font-semibold">Office location</span>
               </div>
-              <span>#007, Street name, Bigtown BG23 4YZ, England</span>
+              <span>
+                HNO, 848, CHANDRA LOK COLONY, MODINAGAR ROAD, Modinagar Hapur,
+                HAPUR, Hapur, Hapur, Uttar Pradesh, 245101
+              </span>
             </div>
             <div className="mt-4 w-full">
-              <iframe
-                title="office location"
-                className="w-full h-80"
-                frameBorder="0"
-                scrolling="no"
-                marginHeight="0"
-                marginWidth="0"
-                src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-              ></iframe>
+              <iframe 
+              title="office location"
+              className="w-full h-80"
+              frameBorder="0"
+              scrolling="no"
+              marginHeight="0"
+              marginWidth="0"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3498.3925944256953!2d77.75696417550466!3d28.737693175607482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDQ0JzE1LjciTiA3N8KwNDUnMzQuMyJF!5e0!3m2!1sen!2sin!4v1727760937129!5m2!1sen!2sin"></iframe>
+          
             </div>
           </div>
 
@@ -75,7 +78,7 @@ function Contactus() {
           <div className="m-10">
             <h2 className="pb-4 text-2xl">Leave a message</h2>
             <form onSubmit={handleSubmit}>
-            <div className="mt-4">
+              <div className="mt-4">
                 <label htmlFor="name" className="block text-gray-700">
                   Full Name
                 </label>
@@ -122,15 +125,24 @@ function Contactus() {
                   Country
                 </label>
                 <select
-                  className="block w-full mt-1 border-gray-300 rounded p-2"
-                  id="country"
-                  name="country"
-                  value={formData.country}
-                  onChange={handleChange}
-                >
-                  <option value="1">USA</option>
-                  <option value="2">Non USA</option>
-                </select>
+  className="block w-full mt-1 border-gray-300 rounded p-2"
+  id="country"
+  name="country"
+  value={formData.country}
+  onChange={handleChange}
+>
+  <option value="1">USA</option>
+  <option value="2">Canada</option>
+  <option value="3">UK</option>
+  <option value="4">Australia</option>
+  <option value="5">India</option>
+  <option value="6">Germany</option>
+  <option value="7">France</option>
+  <option value="8">Japan</option>
+  <option value="9">China</option>
+  <option value="10">Brazil</option>
+</select>
+
               </div>
               <div className="mt-4">
                 <label htmlFor="message" className="block text-gray-700">
