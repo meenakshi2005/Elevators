@@ -1,6 +1,6 @@
 import { CalendarDaysIcon, HandRaisedIcon } from "@heroicons/react/24/outline";
 import axios from "axios";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -14,6 +14,20 @@ export default function Example() {
     status: "",
     description: "",
   });
+  
+  const divRef = useRef(null);
+
+  useEffect(() => {
+    // Automatically fetch the value after 2 seconds
+    const timer = setTimeout(() => {
+      if (divRef.current) {
+        alert(divRef.current.textContent); // Gets the inner content of the div
+      }
+    }, 2000); // 2000ms = 2 seconds
+
+    // Clean up the timeout if the component unmounts
+    return () => clearTimeout(timer);
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -85,6 +99,9 @@ export default function Example() {
 
   return (
     <div className="relative isolate overflow-hidden bg-white-900 py-16 sm:py-24 lg:py-32">
+      <div className="display-none" id="formId1" ref={divRef}>
+        Hello
+      </div>
       <ToastContainer position="top-right" autoClose={5000} />
       {isOpen && (
         <div
